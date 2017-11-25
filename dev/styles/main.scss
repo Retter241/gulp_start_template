@@ -1,0 +1,16 @@
+// Подключение шрифтов и переменных
+@import "fonts";
+@import "vars";
+@import "sprite";
+// Подключение библиотек
+@import "libs/bootstrap/bootstrap";
+// Подключение компонентов
+@import 'components/header';
+@import 'components/footer';
+@import 'components/media';
+
+
+
+h1 {
+	color:$blue;
+}
